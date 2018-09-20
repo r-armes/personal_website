@@ -4,35 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Hind+Siliguri|Oswald" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
     <title>Reece Armes</title>
 </head>
 <body>
     <div class="logo">
-        <img src="#" alt="RA Main Logo">
+        <img src="assets/images/RA_logo_main.svg" alt="RA Main Logo">
+    </div>
+    <div class="jrdev">
+        <p>
+                JUNIOR DEVELOPER
+        </p>
     </div>
 
     <div class="topnav">
-        <a class="active" href="#home">HOME</a>
+        <a id="homebtn" class="active" href="#home">HOME</a>
         <a href="#about">ABOUT ME</a>
         <a href="#skills">SKILLS</a>
         <a href="#projects">PROJECTS</a>
-        <a href="contact">CONTACT ME</a>
+        <a href="#contact">CONTACT ME</a>
       </div>
       
 
       <div class="main">
-        <img src="#" alt="RA Logo Large">
+        <div class="logocontainer">
+            <div class="logoeffect">
+                <img class="ra1" src="assets/images/RA_blue.svg" alt="RA Logo Large Blue">
+                <img class="ra2" src="assets/images/RA_yellow3.svg" alt="RA Logo Large Yellow">
+                <img class="ra3" src="assets/images/RA_blue2.svg" alt="RA Logo Large Blue">
+                <img class="ra4" src="assets/images/RA_yellow3.svg" alt="RA Logo Large Yellow">
+                <img class="ra5" src="assets/images/RA_blue2.svg" alt="RA Logo Large Blue">
+                <img class="ra6" src="assets/images/RA_yellow3.svg" alt="RA Logo Large Yellow">
+            </div>
+        </div>
 
-        <div class="about">
+        <div id="about">
             <h1>ABOUT ME</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic error dignissimos, illo non adipisci iste delectus dolorem corrupti, officiis modi facere a nesciunt debitis, dolorum architecto quos nostrum ratione alias natus. Quas, voluptate! Ipsum nam aspernatur itaque sunt unde ut natus, aperiam iste praesentium accusantium consectetur ea dolores fugiat ex!
+                    Hi there! <br>My name is Reece Armes (you have probably guessed that by now), and I am a junior full-stack developer based in Melbourne, Australia. I am currently undertaking the Intensive Diploma of Information Technology at Coder Academy, and have been loving every minute of it! 
+                    I have always had a passion for design and problem solving which help me think of imaginative ways to produce new creations or innovative methods to accomplish jobs more efficiently. Being surrounded by creative minds from a young age, having multiple family members in the design industry, I have always admired their work which inspired me to want to design and develop creations of my own. After graduating secondary school, I decided to teach myself parts of the Adobe Suite, giving me the skills needed to create a diverse range of projects, including logos, posters, and flyers. In 2015, I completed a Certificate II in Creative Industries at AIE where I learnt the basics of Autodesk Maya and how the industry of 3D animation works. 
+                    In my free time, I enjoy staying fit and living a healthy lifestyle but also have a love for all things food-related, which include cooking and eating everything in sight. I love to travel and enjoy exploring new and fascinating places; I have an extensive wishlist of destinations which someday I hope to visit.
+                    I believe that no matter your current skill level, there is always room for growth and that if you have enough passion, there is nothing you cant learn. 
+                    I am eagerly waiting for an opportunity to break into the developer industry and can’t wait to start progressing my skills and network with awesome people.
             </p>
             <img src="#" alt="Photograph of Reece">
         </div>
 
-        <div class="skills">
+        <div id="skills">
             <h1>SKILLS</h1>
             <h2>My constantly growing skillset includes:</h2>
             <p>
@@ -42,27 +62,23 @@
                 SQL Postgres SQLlite React Vue.js VS Code Photoshop Illustrator Figma
             </p>
             <div class="skillicons">
-                <img src="#" alt="JavaScript Icon">
-                <img src="#" alt="Ruby Icon">
-                <img src="#" alt="Ruby On Rails Icon">
-                <img src="#" alt="MongoDB Icon">                
-                <img src="#" alt="Github Icon">
-                <img src="#" alt="CSS 3 Icon">
-                <img src="#" alt="HTML 5 Icon">
-                <img src="#" alt="Node.js Icon">
-                <img src="#" alt="Express Icon">
-                <img src="#" alt="SQL Icon">
-                <img src="#" alt="Postgres Icon">
-                <img src="#" alt="SQLlite Icon">
-                <img src="#" alt="React Icon">
-                <img src="#" alt="Vue.js Icon">
-                <img src="#" alt="VS Code Icon">
-                <img src="#" alt="Photoshop Icon">
-                <img src="#" alt="Illustrator Icon">
-                <img src="#" alt="Figma Icon">
-            </div>
+                <img src="assets/images/javascript_icon.svg" alt="JavaScript Icon">
+                <img src="assets/images/ruby_icon.svg" alt="Ruby Icon">
+                <img src="assets/images/rails_icon.svg" alt="Ruby On Rails Icon">
+                <img src="assets/images/mongodb_icon.svg" alt="MongoDB Icon">         
+                <img src="assets/images/github_icon.svg" alt="Github Icon">
+                <img src="assets/images/css3_icon.svg" alt="CSS 3 Icon">
+                <img src="assets/images/html5_icon.svg" alt="HTML 5 Icon">
+                <img src="assets/images/nodejs_icon.svg" alt="Node.js Icon">
+                <img src="assets/images/express_icon.svg" alt="Express Icon">
+                <img src="assets/images/mysql_icon.svg" alt="SQL Icon">
+                <img src="assets/images/postgres_icon.svg" alt="Postgres Icon">
+                <img src="assets/images/react_icon.svg" alt="React Icon">
+                <img src="assets/images/vuejs_icon.svg" alt="Vue.js Icon">
+                <img src="assets/images/photoshop_icon.svg" alt="Photoshop Icon">
+                <img src="assets/images/illustrator_icon.svg" alt="Illustrator Icon">            </div>
 
-            <div class="projects">
+            <div id="projects">
                 <h1>PROJECTS</h1>
                 <a href="#">
                     <img src="" alt="Project 1">
@@ -72,7 +88,7 @@
                 </a>
             </div>
 
-            <div class="contact">
+            <div id="contact">
                 <h1>CONTACT</h1>
                 <h3>CONTACT ME:</h3>
                 <div class="contactbox">
@@ -114,8 +130,10 @@
                 <img src="#" alt="Instagram Icon">
             </a>
         </div>
-        <h1>REECE ARMES</h1>
-        <h2>JUNIOR DEVELOPER</h2>
+        <div class="name">
+            <h1>REECE ARMES</h1>
+            <h2>JUNIOR DEVELOPER</h2>
+        </div>
     </div>
 
         
