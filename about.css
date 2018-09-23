@@ -90,21 +90,21 @@ body, html {
     grid-template-rows: 1fr;
 }
 
-.subhead img {
-    justify-self: center;
-    align-self: center;
-}
-
 #blue {
     grid-column: 1/2;
     grid-row: 1/2;
-    height: 11em;
+    height: 10.5em;
+    margin-top: .5em;
+    justify-self: center;
+    align-self: center;
 }
 
 #portrait {
     grid-column: 1/2;
     grid-row: 1/2;
-    height: 10.8em;
+    height: 8em;
+    justify-self: center;
+    align-self: center;
 }
 
 h3 {
