@@ -161,6 +161,8 @@ footer {
     text-decoration: none;
     color: #EFEDDE;
     font-family: 'Oswald', sans-serif;
+    grid-column: 4/5;
+    justify-self: center;
 }
 
 #resume:hover { 
@@ -173,18 +175,10 @@ footer {
 
 }
 
-#resume {
-    grid-column: 4/5;
-    justify-self: cen
-}
-
 .socialicon {
     grid-column: 1 / 5;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
-
-#resume {
 }
 
 .socialicon img {
@@ -234,8 +228,19 @@ label {
     font-size: 4vw;
     font-weight: 700;
     text-decoration: none;
-    color: #121313;
     line-height: 7vh;
+}
+
+.menu a:hover {
+    color: #D7D369;
+}
+
+.menu a:active {
+    color: #D7D369;
+}
+
+.menu a:visited {
+    color: #121313;
 }
 
 #toggle:checked + .menu {

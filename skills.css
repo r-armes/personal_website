@@ -16,7 +16,7 @@ body, html {
 }
 
 .topbar {
-    grid-column: 2 / 3;
+    grid-row: 1/2;
     background: #121313;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -62,7 +62,7 @@ body, html {
 }
 
 .skill-list {
-    grid-column: 2 / 3;
+    grid-row: 3/4;
     background: #121313;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,7 +80,7 @@ body, html {
 }
 
 .icons {
-    grid-column: 2 / 3;
+    grid-row: 4/5;
     display: grid;
     background: #121313;
     grid-template-columns: 1fr 8fr 1fr;
@@ -101,9 +101,10 @@ body, html {
 }
 
 .subhead {
-    grid-column: 2 / 3;
+    grid-row: 2/3;
     color: #1CA199;
     display: grid;
+    text-align: center;
 }
 
 h3 {
@@ -113,7 +114,7 @@ h3 {
 }
 
 footer {
-    grid-column: 2 / 3;
+    grid-row: 5/6;
     color: #D7D369;
     align-self: end;
     justify-self: center;

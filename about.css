@@ -64,13 +64,12 @@ body, html {
     grid-row: 3 / 4;
     background: #121313;
     display: grid;
-    margin-top: 1em;
 }
 
 #bio {
     position: absolute;
     padding: 5px;
-    height: 58vh;
+    height: 55%;
     overflow-y: scroll;
     align-self: center;
     justify-self: center;
@@ -87,6 +86,8 @@ body, html {
 .subhead {
     color: #1CA199;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .subhead img {
@@ -95,7 +96,15 @@ body, html {
 }
 
 #blue {
-    height: 120px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 11em;
+}
+
+#portrait {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 10.8em;
 }
 
 h3 {
