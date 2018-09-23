@@ -96,18 +96,22 @@ My websites target audience would be for potential employers or other developers
 ## Planning Process/Development
 - We were given 5 days to fully complete and deploy the project.
 - I used trello to plan out my tasks as I went.
-  ![Trello](personal_website/assets/images/readne_images/trello.png)
+  
+![Trello](/personal_website/docs/trello.png)
+
 - For the first few days I used pinterest and professional illustrators websites to create a mood board to explore the different possible colors for my own creation.
-![moodboard](personal_website/assets/images/readne_images/moodboard.png)
+  
+![moodboard](/personal_website/docs/moodboard.png)
 
 - Next I went on to creating a logo for myself, this started with rough sketches then eventually developed into a finished product using figma.
-![logo draft](personal_website/assets/images/readne_images/logodraft.png)
+  
+![logo draft](/personal_website/docs/logodraft.png)
 
-![logo refined](personal_website/assets/images/readne_images/logorefined.png)
+![logo refined](/personal_website/docs/logorefined.png)
 
 - Next was on to the design and layout of the site. I used trial and error to finally find a design I was happy with that suited my needs. This was until I realised some of the things I wanted to implement I would need Javascript for. So i went back onto figma and redesigned it so that I could use Soley CSS and HTML.
 
-![layout](personal_website/assets/images/readne_images/layout.png)
+![layout](/personal_website/docs/layout.png)
 
 - After that It was on to coding, starting with the HTML, I made seperate files for each page and put all of the content needed onto it.
 
@@ -134,26 +138,3 @@ Reflect on one aspect of the development of internet technologies and how it has
 > The introduction of 4G mobile internet has transformed how we use the internet today. Prior to 4G we were limited mostly to relatively slow 3G connections or wired or short-distance wireless connections through WiFi.  
 > 
 > Given that we have now been able to cut the cord, it has opened up the opportunity for us to use the internet and phones where ever. This has meant the ability for apps like Google Maps and Uber are now possible and also commonplace.
-
-
-
-
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
-Design documentation including,
-Design process
-Wireframes
-Personal logo (optional)
-Usability considerations
-Details of planning process including,
-Project plan & timeline
-Screenshots of Trello board(s)
-Short Answer Q&A - Include short answers to the following questions,
-Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
