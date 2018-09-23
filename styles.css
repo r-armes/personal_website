@@ -23,6 +23,13 @@ body, html {
     display: grid;
 }
 
+.logosmall {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #121313;
+    height: 2vh;
+}
+
 .logo img {
     align-self: center;
     justify-self: center;
@@ -133,7 +140,6 @@ footer {
     #small-logo {
         margin-top: 1em;
         height: 20vh;
-        opacity: 1;
     }
     
     
@@ -258,11 +264,4 @@ footer {
 
 
 
-}
-
-@media only screen and (max-width: 500px) {
-
-    #small-logo {
-        display: none;
-    }
 }
