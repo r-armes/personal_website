@@ -206,6 +206,13 @@ footer {
         text-underline-position: under;
         letter-spacing: 0.2px;
     }
+
+    #home:hover {
+        color: #1CA199;
+        text-decoration: underline #D7D369;
+        text-underline-position: under;
+        letter-spacing: 0.2px;
+    }
    
     
     .icons {
