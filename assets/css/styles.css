@@ -259,3 +259,13 @@ footer {
 
 
 }
+
+@media only screen and (min-width: 500px) and (max-width: 991px) {
+    #logomain2 {
+        height: 38vh;
+    }
+
+    .menu {
+        font-size: 1.4em;
+    }
+}
