@@ -29,6 +29,10 @@ body, html {
     background: #121313;
     height: 2vh;
 }
+#small-logo {
+    margin-top: 1em;
+    height: 20vh;
+}
 
 .logo img {
     align-self: center;
