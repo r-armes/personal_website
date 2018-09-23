@@ -158,10 +158,11 @@ footer {
 
 #resume {
     margin-top: 1vh;
+    margin-bottom: 1vh;
     text-decoration: none;
     color: #EFEDDE;
     font-family: 'Oswald', sans-serif;
-    grid-column: 4/5;
+    grid-column: 3/5;
     justify-self: center;
 }
 
