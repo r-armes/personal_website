@@ -2,7 +2,7 @@
 
 For a link to my live portfolio website [click here](https://reecearmes.netlify.com/).
 
-For a link to my Github repository [click here](https://reecearmes.netlify.com/).
+For a link to my Github repository [click here](https://github.com/r-armes/personal_website).
 
 For a link to my Figma [click here](https://www.figma.com/file/b2yGDW8axEdKQXoJ0dyXQz1M/personal-website-design?node-id=0%3A1).
 
