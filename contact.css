@@ -110,13 +110,23 @@ textarea {
     grid-column: 2 / 3;
     grid-row: 2/3;
 }
+#name:focus {
+    border: #D7D369;
+}
+
 #email {
     grid-column: 2 / 3;
     grid-row: 4/5;
 }
+#email:focus {
+    border: #D7D369;
+}
 #message {
     grid-column: 2 / 3;
     grid-row: 6/7;
+}
+#message:focus {
+    border: #D7D369;
 }
 
 button {

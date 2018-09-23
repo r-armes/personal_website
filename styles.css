@@ -7,6 +7,15 @@ body, html {
     margin: 0;
 }
 
+.logosmall {
+    height: 0px;
+    width: 0px;
+}
+
+#small-logo {
+    opacity: 0;
+}
+
 .wrapper {
     width: 100vw;
     height: 100vh;
@@ -98,4 +107,157 @@ footer {
     justify-self: center;
     margin-bottom: .5em;
     font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+
+    body, html {
+        background: #121313;
+        /* font-family: 'Oswald', sans-serif;
+        font-family: 'Alegreya Sans', sans-serif; */
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #EFEDDE;
+        margin: 0;
+        
+    }
+
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        background: #121313;
+        display: grid;
+        grid-template-columns: 3.5fr 12fr;
+        grid-template-rows: 30fr 30fr 40fr 10fr 5fr;
+    }
+    
+    .logosmall {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: center;
+        margin-left: 1em;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #small-logo {
+        margin-top: 1em;
+        height: 20vh;
+        opacity: 1;
+    }
+    
+    
+    .logo {
+        grid-column: 2 / 3;
+        grid-row: 1/5;
+        background: #121313;
+        display: grid;
+    }
+    #logomain2 {
+        height: 50vw;
+        align-self: center;
+        justify-self: start;
+    }
+    
+    .logo img {
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .menu {
+        margin-top: 1vh;
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 2/4;
+        margin-left: 1em;
+        grid-template-columns: 1fr;
+    }
+    
+    #home {
+        text-decoration: underline #1CA199;
+        text-underline-position: under;
+        letter-spacing: 0.2px;
+        color: #D7D369;
+        grid-column: 1/2;
+    }
+
+    #about {
+        grid-column: 1/2;
+    }
+
+    #contact {
+        grid-column: 1/2;
+    }
+    #skills {
+        grid-column: 1/2;
+    }
+    
+    .menu a {
+        font-family: 'Oswald', sans-serif;
+        color: #EFEDDE;
+        text-align: start;
+        padding-left: 0;
+        font-size: 2.3em;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        color: #D7D369;
+        text-decoration: underline #1CA199;
+        text-underline-position: under;
+        letter-spacing: 0.2px;
+    }
+   
+    
+    .icons {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        display: grid;
+        background: #121313;
+        margin-left: 1em;
+    }
+    
+    .iconarea {
+        display: grid;
+        justify-self: start;
+        align-self: space-between;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+        margin-top: 1em;
+    }
+    
+    .iconarea img {
+        background: #121313;
+        align-self: center;
+        justify-self: center;
+        height: 8vh;
+    }
+
+    .git, .codepen, .linkedin, .insta {
+        opacity: 0.5;
+    }
+    
+    .git:hover, .codepen:hover, .linkedin:hover, .insta:hover {
+        opacity: 1;
+    }
+
+    .linkedin {
+        margin-top: -5px;
+    }
+
+    
+    
+    footer {
+        grid-column: 1 / 3;
+        grid-row: 5/6;
+        color: #D7D369;
+        align-self: end;
+        justify-self: center;
+        margin-bottom: .5em;
+        font-family: 'Oswald', sans-serif;
+        
+    }
+    
+
+
+
 }
