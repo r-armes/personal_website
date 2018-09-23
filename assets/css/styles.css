@@ -142,7 +142,7 @@ footer {
     
     #small-logo {
         margin-top: 1em;
-        height: 19vh;
+        height: 100%;
         margin-left: -0.2em;
     }
     
@@ -174,11 +174,8 @@ footer {
     }
     
     #home {
-        text-decoration: underline #1CA199;
-        text-underline-position: under;
-        letter-spacing: 0.2px;
-        color: #D7D369;
         grid-column: 1/2;
+        font-weight: 200;
     }
 
     #about {
@@ -204,13 +201,6 @@ footer {
     .menu a:hover {
         color: #D7D369;
         text-decoration: underline #1CA199;
-        text-underline-position: under;
-        letter-spacing: 0.2px;
-    }
-
-    #home:hover {
-        color: #1CA199;
-        text-decoration: underline #D7D369;
         text-underline-position: under;
         letter-spacing: 0.2px;
     }
